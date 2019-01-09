@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Londrina+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Satisfy');
+
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Londrina Sketch', cursive;
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color:inherit;
+}
+
+#new-quote:hover {
+  cursor: pointer;
+}
+
+#main-area {
+  background-color: white;
+  position: relative;
+}
+
+#quote-box {
+  display:block;
+  background-color: black;
+  color: white;
+  width: 50vw;
+  height: 25vw;
+  position: absolute;
+  top: 10vw;
+  left: 25vw;
+  border-radius: 1vw;
+  }
+
+#tweet-image{
+  width: 5vw;
+}
+
+#text {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-family: cursive;
+  font-size: 4vw;
+  text-align: center;
+  height: 19vh;
+}
+
+#author {
+  font-family: roboto;
+  font-size: 2vw;
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.button{
+  margin-top: 2vh;
+  background-color: white;
+  font-size: 2vw;
+  color: black;
+  width: 48vw;
+  height: 7vh;
+  line-height: 7vh;
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-radius: .3vw;
+  &:hover{cursor: pointer;}
+
+}
