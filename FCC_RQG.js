@@ -2,7 +2,7 @@ function newQuote(){
   var quotes = [
     ["Together we can change the world, just one random act of kindness at a time.", "Ron Hall"],
     ["Natural selection is anything but random.","Richard Dawkins"],
-    ["Life is 10\% what happens to you and 90\% how you react to it.","Charles R. Swindoll"],
+    ["Life is 10 percent what happens to you and 90 percent how you react to it.","Charles R. Swindoll"],
     ["Good, better, best. Never let it rest. 'Til your good is better and your better is best.","St. Jerome"]];
 
   var i = Math.floor(Math.random() * quotes.length + 1);
