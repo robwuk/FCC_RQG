@@ -15,7 +15,7 @@
 <script>
 
  </script>
-  <title>Robert Worth</title>
+  <title>Robert Worth - Random Quote Generator</title>
 </head>
 
   <body>
@@ -24,11 +24,13 @@
     <div id="fcc_test_suite_wrapper" style="position: relative !important; z-index: 99999 !important;"></div>
     <div id="main-area">
       <div id="quote-box">
-        <p id="text">This will be the text</p>
-        <p id="author">This will be the author</p>
-        <div id="new-quote" class="button">Generate a new quote</div>
-        <div class="button"><a href="#" id="tweet-quote">Tweet this quote</a></div>
+        <p id="text"></p>
+        <p id="author"></p>
+        <div id="new-quote" class="button" onclick="javascript:newQuote()">Generate a new quote</div>
+        <div class="button"><a href="" target="_blank" id="tweet-quote">Tweet this quote</a></div>
       </div>
     </div>
+
+  <script src="FCC_RQG.js"></script>
   </body>
 </html>

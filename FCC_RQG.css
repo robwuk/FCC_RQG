@@ -36,18 +36,24 @@
   width: 5vw;
 }
 
+
 #text {
+  margin-top:1vh;
   margin-left: 1vw;
   margin-right: 1vw;
   font-family: cursive;
-  font-size: 4vw;
+  font-size: 2vw;
   text-align: center;
   height: 19vh;
 }
 
+#quotes{
+  font-size: 3vw;
+}
+
 #author {
   font-family: roboto;
-  font-size: 2vw;
+  font-size: 1vw;
   text-align: center;
   margin-left: 1vw;
   margin-right: 1vw;
